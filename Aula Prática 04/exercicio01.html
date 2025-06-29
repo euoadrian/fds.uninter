@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Comentario{
+            background-color: lch(53.23% 104.58 40);
+        }
+    </style>
+</head>
+<body>
+    <h1>Pedido de Açai</h1>
+    <form action="teste.jsp" method="post"></form>
+        Nome:    <input type="text" name="nome"> <br>
+        E-mail  <input type="email" name="email"> <br>
+        Tamanho da Pizza: 
+           <input type="radio" name="tamanho" value="1L" id="" checked> 1L 
+           <input type="radio" name="tamanho" value="500ml" id=""> 500ml 
+           <input type="radio" name="tamanho" value="300ml" id=""> 300ml 
+           <br>
+        Sabores:
+           <select name="" id="">
+            <option value="">Puro</option>
+            <option value="">Tradicional</option>
+           </select>
+           <br>
+        Adicionais:
+           <input type="checkbox" name="Banana" value="Sim"> Banana
+           <input type="checkbox" name="Nutela" value="Sim"> Nutela
+           <br>
+        Data Entrega: <input type="date" name="dataEntrega"> <br>
+        <textarea name="Comentario" id="Comentario" rows="4">Comentário</textarea> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
